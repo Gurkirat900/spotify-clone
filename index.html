@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" ccd ontent="width=device-width, initial-scale;1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Spotify-clone</title>
 </head>
 <body>
@@ -14,6 +17,54 @@
             <li>About</li>
         </ul>
     </nav>
+
+    <div class="container">
+        <div class="song-list">
+            <h1>Your Faviourites</h1>
+            <div>
+                <div class="song-item">
+                    <img  src="logos/song1.jpg" alt="1">
+                    <span>ILLAHI</span>
+                    <span class="song-info">3:24 <span class="play"> <i class="fa-solid fa-circle-play fa-beat "></i></span> </span>
+                </div>
+                <div class="song-item">
+                    <img  src="logos/cover2.jpeg" alt="1">
+                    <span>The Nights</span>
+                    <span class="song-info">3:26 <span  class="play"> <i class="fa-solid fa-circle-play fa-beat "></i></span> </span>
+                </div>
+                <div class="song-item">
+                    <img  src="logos/song3.jpeg" alt="1">
+                    <span>Zinda</span>
+                    <span class="song-info">3:30 <span  class="play"> <i class="fa-solid fa-circle-play fa-beat "></i></span> </span>
+                </div>
+                <div class="song-item">
+                    <img  src="logos/song4.jpeg" alt="1">
+                    <span>House Of Memories</span>
+                    <span class="song-info">3:29 <span  class="play"> <i class="fa-solid fa-circle-play fa-beat "></i></span> </span>
+                </div>
+                <div class="song-item">
+                    <img  src="logos/song6.jpeg" alt="1">
+                    <span>Woh din</span>
+                    <span class="song-info">4:37 <span  class="play"> <i class="fa-solid fa-circle-play fa-beat "></i></span> </span>
+                </div>
+            
+            </div>
+        </div>
+
+       
+        
+        <div class="song-banner"></div>
+    </div>
     
+    <div class="bottom">
+        <input type="range" id="myprogressbar">
+        <div class="icons">
+        <!-- font awesome icons -->
+        <i class="fa-solid fa-backward play"></i>
+        <i class="fa-solid fa-circle-play fa-beat play"></i>
+        <i class="fa-solid fa-forward play"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4760bd9cb1.js" crossorigin="anonymous"></script>
 </body>
 </html>

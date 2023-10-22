@@ -5,31 +5,100 @@
 
 body{
     background-color: antiquewhite;
+    padding-top: 0;
+    margin-top: 0;
    
 }
 
+nav{
+    padding: 0;
+    margin: 0;
+    
+}
 
 nav ul{
   background-color: black;
   color: white;
   list-style-type: none;
   display: flex;
-  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
   align-items: center;
-  height: 80px;
-
-  
+  height: 42px;
+  top: 0;
 }
 
 nav ul li{
     padding: 8px;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     
 }
 
 
 .spotify-logo img{
-    width: 160px;
-    height: 70px;
+    width:78px;
+    height: 38px;
 }
 
+.container{
+    height:70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    background-image:url('https://i.pinimg.com/736x/0c/b2/ab/0cb2ab6226ff9987127a34145cf3478b--cd-music-vinyl-music.jpg');
+    background-size: cover;
+}
+
+.song-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    width: 200%;
+    align-items: center;
+    margin: 4px 0;
+    border-radius: 28px;
+    font-family: Open+sans-serif;
+}
+
+.song-item img{
+    width: 60px;
+    height: 55px;
+    margin: 2px 23px;
+    border-radius: 26px;
+}
+
+.song-info{
+    padding-right: 18px;
+    
+}
+
+.bottom{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+}
+
+#myprogressbar{
+    width: 80vw;
+}
+
+.icons{
+    margin-top: 7px;
+}
+
+.play{
+    height: 25px;
+    margin: 0 2px;
+    cursor: pointer;
+}
