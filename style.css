@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(2, 2, 50);
     padding-top: 0;
     margin-top: 0;
    
@@ -56,11 +56,11 @@ nav ul li{
 .song-item{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color:rgb(236, 215, 188);
     color: black;
     width: 200%;
     align-items: center;
-    margin: 4px 0;
+    margin: 6px 0;
     border-radius: 28px;
     font-family: Open+sans-serif;
 }
@@ -102,3 +102,14 @@ nav ul li{
     margin: 0 2px;
     cursor: pointer;
 }
+
+#playid{
+    
+    height: 25px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+
+
+
